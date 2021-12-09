@@ -11,9 +11,9 @@ class TestItem():
     def test_item_page_should_contain_add_button(self, browser):
     
         browser.get(link)
-        time.sleep(1)
+        time.sleep(5)
         ele = None
         try:
-            ele = browser.find_element_by_css_selector(".btn-add-to-bsket")
+            ele = browser.find_element_by_css_selector(".btn-add-to-basket")
         except NoSuchElementException:
             assert ele != None, "Add to basket button is missing"
