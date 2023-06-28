@@ -1,4 +1,4 @@
-# stepik-auto-tests-course
+# st-auto-tests
 == Test Automation Course with Python and Selenium
 
 This repository contains already the solution for the task in chapter 3.6
